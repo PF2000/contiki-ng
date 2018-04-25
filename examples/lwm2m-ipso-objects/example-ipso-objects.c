@@ -60,7 +60,7 @@
 #endif
 
 #ifndef LWM2M_SERVER_ADDRESS
-#define LWM2M_SERVER_ADDRESS "coap://[fd00::1]"
+#define LWM2M_SERVER_ADDRESS "coaps://[fd00::1]"
 #endif
 
 #if BOARD_SENSORTAG

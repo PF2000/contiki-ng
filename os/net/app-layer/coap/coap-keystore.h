@@ -53,6 +53,10 @@
 
 #include "coap-endpoint.h"
 
+
+#define COAP_DTLS_PSK_DEFAULT_IDENTITY "OurIdentity"
+#define COAP_DTLS_PSK_DEFAULT_KEY      "OurSecret"
+
 /**
  * The structure of a CoAP pre-shared key info.
  */
